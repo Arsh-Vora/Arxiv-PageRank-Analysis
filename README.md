@@ -44,9 +44,9 @@ To solve this, I developed and benchmarked three distinct methodologies:
 ## 📁 Repository Structure
 ```text
 ├── src/
-│   ├── 01_spark_filtered_pagerank.ipynb    # Unipartite graph with >50 degree filter
-│   ├── 02_spark_bipartite_pagerank.ipynb   # 100% data processing via Bipartite mapping
-│   ├── 03_matrix_t2_approximation.ipynb    # High-speed SciPy matrix approximation
+│   ├── PageRank50.ipynb    # Unipartite graph with >50 degree filter
+│   ├── PageRankALL.ipynb   # 100% data processing via Bipartite mapping
+│   ├── T2analysis.ipynb    # High-speed SciPy matrix approximation
 ├── docs/
-│   ├── PageRank_Link_Analysis_Report.pdf   # Full academic report and mathematical proofs
+│   ├── PageRank_Link_Analysis_.pdf   # Full academic report and mathematical proofs
 └── README.md
